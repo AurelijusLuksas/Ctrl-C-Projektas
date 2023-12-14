@@ -5,15 +5,13 @@
 }
 .navigation{
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.column-align{
-  display: flex;
-  flex-flow: column;
-  
-}
 
 .button-style{
+  margin: 0.25%;
   background-color: red;
   width: 100px;
   height: 36px;

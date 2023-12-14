@@ -1,3 +1,17 @@
 .button-style{
   background-color: red;
+  width: 100px;
+  height: 36px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.15;
+}
+.button-style:hover{
+  opacity: 0.8;
+}
+.button-style:active{
+  background-color: greenyellow;
 }

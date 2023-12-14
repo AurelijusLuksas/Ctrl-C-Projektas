@@ -3,9 +3,14 @@
   text-align: center;
   font-size: 64pt;
 }
-
 .navigation{
-  text-align: right;
+  display: flex;
+}
+
+.column-align{
+  display: flex;
+  flex-flow: column;
+  
 }
 
 .button-style{

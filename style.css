@@ -1,8 +1,26 @@
 .header-style{
+  display: flex;
   font-family: "Sora", sans-serif;
-  text-align: center;
   font-size: 64pt;
 }
+<<<<<<< Updated upstream
+=======
+
+.header{
+  display: flex;
+  flex-flow: column;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  left: 0;
+  right: 0;
+  top: 0;
+  line-height: 150px;
+  vertical-align: top;
+}
+
+>>>>>>> Stashed changes
 .navigation{
   display: flex;
   flex-direction: column;
@@ -19,6 +37,7 @@
   border-style: none;
   color: white;
   font-weight: bold;
+  font-family: "Sora", sans-serif;
   cursor: pointer;
   transition: opacity 0.15;
 }

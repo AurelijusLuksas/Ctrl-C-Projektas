@@ -3,8 +3,6 @@
   font-family: "Sora", sans-serif;
   font-size: 64pt;
 }
-<<<<<<< Updated upstream
-=======
 
 .header{
   display: flex;
@@ -20,7 +18,6 @@
   vertical-align: top;
 }
 
->>>>>>> Stashed changes
 .navigation{
   display: flex;
   flex-direction: column;
@@ -31,18 +28,20 @@
 .button-style{
   margin: 0.25%;
   background-color: red;
-  width: 100px;
-  height: 36px;
+  width: 15%;
+  height: 70px;
   border-radius: 10px;
   border-style: none;
   color: white;
   font-weight: bold;
+  font-size: large;
   font-family: "Sora", sans-serif;
   cursor: pointer;
+  opacity: 0.8;
   transition: opacity 0.15;
 }
 .button-style:hover{
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .button-style:active{
   background-color: greenyellow;
